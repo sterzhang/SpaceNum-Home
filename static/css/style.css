@@ -95,6 +95,14 @@ body {
     color: #ffe099;
 }
 
+.header-content .hero-statement {
+    border-left: 5px solid #ffb15f;
+    margin: 24px 0;
+    padding: 16px 20px;
+    background: linear-gradient(90deg, rgba(4, 45, 92, 0.72), rgba(255, 129, 35, 0.16));
+    box-shadow: 0 18px 40px rgba(5, 28, 66, 0.18);
+}
+
 .header-content {
     color: #FFF7D4;
     text-align: left;

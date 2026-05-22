@@ -47,24 +47,30 @@
                 <div class="header-content">
                     <h1 style="margin-top: 0px"><i>SpaceNum:</i></h1>
                     <h2>Revisiting Spatial Numerical<br>Understanding in VLMs</h2>
-                    <p>
-                        Vision-language models increasingly produce numbers for embodied navigation, action magnitudes,
-                        object coordinates, and spatial layouts. SpaceNum asks whether these numbers are genuinely grounded
-                        in metric spatial meaning, or only plausible tokens loosely correlated with visual cues.
+                    <p class="hero-statement">
+                        Vision-Language Models are moving beyond static 2D image understanding toward dynamic 3D spatial
+                        exploration. As VLM-based spatial agents claim to perceive, navigate, and reason in space, they
+                        inevitably produce numbers with spatial meaning: coordinates, distances, rotations, and action
+                        magnitudes. <strong>SpaceNum asks a sharper question:</strong> do these numbers truly map to space,
+                        or are they only fluent tokens attached to shallow visual cues?
                     </p>
 
                     <div class="icon-container">
                         <div class="icon-item">
-                            <img src="./static/img/icons/visual.svg" alt="Dynamic transition icon">
-                            <div><strong>Numbers as Dynamic Transitions:</strong> test whether numerical action magnitudes such as movement distance or rotation angle correspond to the right visual state change.</div>
+                            <img src="./static/img/icons/data.svg" alt="Static layout icon">
+                            <div><strong>Static Layout Grounding:</strong> when VLMs generate coordinate-based cognitive maps for spatial understanding, do the numbers actually correspond to object layouts in space?</div>
                         </div>
                         <div class="icon-item">
-                            <img src="./static/img/icons/data.svg" alt="Static layout icon">
-                            <div><strong>Numbers as Static Layouts:</strong> evaluate whether coordinate-like values encode relative object position, size, and scene structure under a defined reference frame.</div>
+                            <img src="./static/img/icons/visual.svg" alt="Dynamic transition icon">
+                            <div><strong>Dynamic Transition Grounding:</strong> during spatial exploration, can models connect action numbers such as meters or degrees to the visual change they cause?</div>
                         </div>
                         <div class="icon-item">
                             <img src="./static/img/icons/eval.svg" alt="Evaluation icon">
-                            <div><strong>Bidirectional Grounding:</strong> evaluate both <span class="method-name">Num2Space</span> and <span class="method-name">Space2Num</span> to diagnose how models map between language-side numbers and vision-side space.</div>
+                            <div><strong>Mapping Direction Bias:</strong> is <span class="method-name">Space2Num</span> easier than <span class="method-name">Num2Space</span>, or do VLMs show different preferences across layouts and transitions?</div>
+                        </div>
+                        <div class="icon-item">
+                            <img src="./static/img/icons/magnifier.svg" alt="Diagnostic analysis icon">
+                            <div><strong>Failure Anatomy:</strong> we probe errors, reasoning traces, visual reliance, symmetry, abstraction, and tuning to identify where spatial numerical grounding breaks.</div>
                         </div>
                     </div>
 
