@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="SpaceNum icon">
+  <defs>
+    <linearGradient id="space-num-bg" x1="18" y1="18" x2="110" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#062044"/>
+      <stop offset="0.56" stop-color="#0f83c7"/>
+      <stop offset="1" stop-color="#ff8123"/>
+    </linearGradient>
+    <linearGradient id="space-num-line" x1="28" y1="92" x2="98" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb15f"/>
+      <stop offset="1" stop-color="#f9f6dc"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#space-num-bg)"/>
+  <path d="M30 86 L30 38 M30 86 L94 86" fill="none" stroke="#f9f6dc" stroke-width="8" stroke-linecap="round"/>
+  <path d="M32 82 C46 58 61 70 74 48 C80 38 88 33 98 30" fill="none" stroke="url(#space-num-line)" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="46" cy="62" r="8" fill="#ffb15f" stroke="#f9f6dc" stroke-width="4"/>
+  <circle cx="74" cy="48" r="8" fill="#0f83c7" stroke="#f9f6dc" stroke-width="4"/>
+  <circle cx="98" cy="30" r="8" fill="#ff8123" stroke="#f9f6dc" stroke-width="4"/>
+  <text x="64" y="110" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#f9f6dc">#</text>
+</svg>

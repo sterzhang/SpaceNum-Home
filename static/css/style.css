@@ -108,17 +108,26 @@ body {
     text-align: left;
 }
 
+.header-title {
+    display: block;
+    margin-bottom: 18px;
+    white-space: normal;
+}
+
 .header-content h1 {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
+    font-size: clamp(2.6rem, 6vw, 4.6rem);
+    margin-bottom: 0.08em;
     line-height: 1.2;
     color: #FEAE6F;
 }
 
 .header-content h2 {
-    margin-bottom: 0.5em;
+    font-size: clamp(2rem, 4.8vw, 3.7rem);
+    margin-bottom: 0;
     line-height: 1.2;
     color: #FEAE6F;
+    max-width: 100%;
+    white-space: normal;
 }
 
 .header-container p {
@@ -132,13 +141,9 @@ body {
   }
 
   .header-content h1 {
-    font-size: 3em;
-    margin-bottom: 0.125em;
+    margin-bottom: 0.08em;
   }
   .header-content h2 {
-    font-size: 1.7em;
-    /* text no wrap */
-    white-space: nowrap;
     margin-top: 0;
   }
 
@@ -325,22 +330,20 @@ body {
     display: flex; /* Use flexbox for positioning on larger screens */
     justify-content: center; /* Center content when no header image is shown */
     align-items: center; /* Align items vertically */
-    padding: 50px 50px; /* Increase padding for larger screens */
+    padding: 50px 28px; /* Keep the one-line title roomy on medium screens */
   }
 
   .header-content {
-    max-width: 1200px; /* Header content spans the hero after removing the right image */
+    max-width: 1280px; /* Header content spans the hero after removing the right image */
     text-align: left; /* Align text to the left for larger screens */
     margin-right: 0;
   }
 
   .header-content h1 {
-    font-size: 3.3em; /* Increase font size for larger screens */
   }
 
   .header-content h2 {
-    margin-top: -0.75em; /* Reduce space between headers */
-    font-size: 2em; /* Increase font size for larger screens */
+    margin-top: 0;
   }
 
   .teaser-video {
