@@ -111,23 +111,23 @@ body {
 .header-title {
     display: block;
     margin-bottom: 18px;
-    white-space: normal;
 }
 
 .header-content h1 {
-    font-size: clamp(2.6rem, 6vw, 4.6rem);
+    font-size: clamp(2.1rem, 4.6vw, 4.3rem);
     margin-bottom: 0.08em;
     line-height: 1.2;
     color: #FEAE6F;
+    white-space: nowrap;
 }
 
 .header-content h2 {
-    font-size: clamp(2rem, 4.8vw, 3.7rem);
+    font-size: clamp(2.1rem, 4.6vw, 4.3rem);
     margin-bottom: 0;
     line-height: 1.2;
     color: #FEAE6F;
     max-width: 100%;
-    white-space: normal;
+    white-space: nowrap;
 }
 
 .header-container p {
@@ -141,10 +141,14 @@ body {
   }
 
   .header-content h1 {
+    font-size: clamp(2rem, 8vw, 3.4rem);
     margin-bottom: 0.08em;
+    white-space: normal;
   }
   .header-content h2 {
+    font-size: clamp(2rem, 8vw, 3.4rem);
     margin-top: 0;
+    white-space: normal;
   }
 
   .header-container p {
