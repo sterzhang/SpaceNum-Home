@@ -305,11 +305,37 @@ body {
 }
 
 .figure-grid d-figure {
+  box-sizing: border-box;
+  display: block;
   margin: 0;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.figure-grid figure {
+  box-sizing: border-box;
+  margin: 0;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.figure-grid img {
+  box-sizing: border-box;
+  display: block;
+  height: auto;
+  max-width: 100% !important;
+  object-fit: contain;
 }
 
 .main-result-image {
   width: 95%;
+}
+
+@media (max-width: 1100px) {
+  .figure-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 900px) {
@@ -1606,4 +1632,22 @@ iframe {
 .delta-worse {
     color: #CC0000;
     font-weight: 500;
+}
+
+.visitor-map {
+    display: flex;
+    justify-content: center;
+    margin: 28px auto 18px;
+    max-width: 220px;
+    overflow: hidden;
+}
+
+.visitor-map iframe,
+.visitor-map img,
+.visitor-map canvas,
+.visitor-map object {
+    border: 0 !important;
+    height: 150px !important;
+    max-width: 220px !important;
+    width: 220px !important;
 }
